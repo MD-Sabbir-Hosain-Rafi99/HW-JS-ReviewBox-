@@ -69,7 +69,7 @@ body{
 #headingTwo{
     font-size: 48px;
   font-weight: bold;
-  background-image: url('1.jpg'); /* তোমার ইমেজ URL */
+  background-image: url('1.jpg');
   background-size: cover;
   background-position: center;
   color: transparent;
