@@ -1,0 +1,78 @@
+body{
+    background-color: rgba(70, 2, 110, 1);
+}
+
+#heading{
+    color: white;
+}
+.parent{
+    padding: 20px 123px 20px 123px;
+    background: linear-gradient(90deg, #24469A 7%, #2FA7B5 50%, #b9dee7 100%);
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 260px;
+    border-radius: 10px;
+}
+
+#btnOne{
+    padding: 10px 40px 10px 40px;
+    margin-top: 20px;
+    background: #A21953;
+    cursor: pointer;
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+}
+#delete{
+    padding: 10px 40px 10px 40px;
+    margin-top: 20px;
+    background: #A21953;
+    cursor: pointer;
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+}
+#textInputOne{
+    padding: 10px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    border: none;
+    font-size: x-large;
+}
+#textInputOne::placeholder{
+    font-size: x-large;
+}
+
+
+
+
+
+.parentDiv{
+    text-align: center;
+    margin-top: 250px;
+}
+
+#inputField{
+   width: 500px;
+   height: 80px;
+   padding-left: 20px;
+   border-radius: 10px;
+   border: none;
+   background: rgb(193, 124, 253);
+   color: white;
+   font-size: x-large;
+}
+#inputField::placeholder{
+    font-size: x-large
+}
+
+#headingTwo{
+    font-size: 48px;
+  font-weight: bold;
+  background-image: url('1.jpg'); /* তোমার ইমেজ URL */
+  background-size: cover;
+  background-position: center;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}

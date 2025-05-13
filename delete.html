@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body style="background: #a844ff;">
+    <div class="parentDiv">
+        <h1 id="headingTwo">Title: Hello MERN 2407</h1>
+        <input type="text" id="inputField" placeholder="Please Type ‘Delete’ To  Delete">
+        <br><br>
+        <button id="delete" disabled>Delete</button>
+        <a style="text-decoration: none; padding: 12px 40px 12px 40px; background: white; width: 2%; margin: 0 auto; margin-left: 50px; border-radius: 5px; font-size: x-large; color: blueviolet;" href="review.html">Preview</a>
+    </div>
+
+    <script>
+        let headingTwo = document.getElementById('headingTwo');
+        let inputField = document.getElementById('inputField');
+        let deleteBtn = document.getElementById('delete');
+
+        inputField.addEventListener('keyup', () => {
+            if (inputField.value == "Delete") {
+                deleteBtn.removeAttribute("disabled");
+                deleteBtn.style.backgroundColor = "blue";
+                
+            }else{
+                deleteBtn.setAttribute("disabled", true);
+                deleteBtn.style.backgroundColor = "";
+            }
+        })
+        deleteBtn.addEventListener('click', () => {
+            headingTwo.style.display = "none"
+            inputField.value= "";
+            deleteBtn.style.backgroundColor = "";
+        })
+    </script>
+</body>
+
+</html>
